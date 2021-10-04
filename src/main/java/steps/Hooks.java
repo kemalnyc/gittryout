@@ -18,4 +18,5 @@ public class Hooks {
             CucumberLogUtils.logFail("Scenario: " + scenario.getName() + " FAILED", true);
         WebDriverUtils.quitDriver();
     }
+    static String name="kemal";
 }
